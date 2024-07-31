@@ -1,6 +1,6 @@
 # Molly_Project
 
-##  🛠️ Technologies Used:
+## Technologies Used:
 
 * HTML
 * CSS
