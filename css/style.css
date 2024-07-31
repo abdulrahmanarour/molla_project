@@ -1,0 +1,1126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --main-color: #2a3b45;
+  --second-color: #ffe500
+}
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.headeer_opsh {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1000;
+  background-color: #2a3b456f;
+}
+
+.headeer_opsh ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  justify-content: center;
+}
+
+.headeer_opsh ul li a {
+  text-decoration: none;
+  padding-left: 25px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.headeer_opsh ul li a:hover {
+  transform: scale(1.1);
+  color: var(--second-color);
+}
+
+.headeer_opsh ul li .logo {
+  padding: 1px 2px 1px 5px;
+  margin-right: 1px;
+}
+
+.headeer_opsh ul .devam {
+  padding: 10px;
+  margin-left: 16px;
+}
+
+.headeer_opsh .kafa {
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+#Home{
+  background-image: url(../resimler/eniyiy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px var(--main-color) solid;
+  border-top: 1px var(--main-color) solid;
+  /*margin-bottom: 100px;*/
+  padding-bottom: 91px;
+}
+
+#Home .get_start{
+  margin-top: 25px;
+  color: var(--main-color);
+  padding: 9px 25px;
+  background-color: var(--second-color);
+  border: solid 2px var(--main-color);
+  border-radius: 20px ;
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Home .get_start:hover{
+  color: var(--second-color);
+  background-color: var(--main-color);
+  transform: scale(1.1);
+}
+
+section .mainPh{
+  text-align: center;
+}
+
+section .mainPh #ust{
+  margin: 200px;
+  margin-bottom: 1px;
+  color: #fff;
+  font-size: 11px;
+  word-spacing: 2px;
+}
+
+section .mainPh span{
+  color: var(--second-color);
+}
+
+section .mainPh h2{
+  color: #fff;
+  font-size: 65px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+section .mainPh .Lorem{
+  text-align: center;
+  color: #fff;
+  word-spacing: 2px;
+  font-size: 11px;
+}
+
+#Home .mainPh{
+  margin-bottom: 200px;
+}
+
+#Servisces h2{
+  text-align: center;
+  margin: 50px;
+  font-size: 55px;
+  color: var(--main-color);
+}
+
+#Servisces .Lorem2{
+  text-align: center;
+  color: var(--main-color);
+  word-spacing: 2px;
+  font-size: 10px;
+}
+
+#Servisces #forMargin{
+  margin-bottom: 60px;
+}
+
+#Servisces #forIcons{
+  text-align: center;
+  word-spacing: 170px;
+  color: var(--second-color);
+  font-size: 30px;
+}
+
+#Servisces #css{
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--second-color);
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Servisces #boya{
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--second-color);
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Servisces #camera{
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--second-color);
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Servisces #mobile{
+  padding: 20px 23px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--second-color);
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Servisces #css:hover,#boya:hover,#camera:hover,#mobile:hover{
+  transform: scale(1.2);
+  color: var(--main-color);
+}
+
+#Servisces #boya:hover{
+  color: var(--main-color);
+}
+
+#Servisces #camera:hover{
+  color: var(--main-color);
+}
+
+#Servisces #mobile:hover{
+  color: var(--main-color);
+}
+
+#Servisces #test{
+  display: flex;
+  text-align: center;
+  text-align: center;
+  margin-left: 23px;
+}
+
+#Servisces #test #web{
+  color: var(--main-color);
+  padding:30px 70px 10px 311px;
+  padding-bottom: 80px;
+}
+
+#Servisces #test #tasarim{
+  color: var(--main-color);
+  padding: 35px 70px 10px 60px;
+}
+
+#Servisces #test #cek{
+  color: var(--main-color);
+  padding: 36px 70px 10px 60px;
+}
+
+#Servisces #test #yazilim{
+  color: var(--main-color);
+  padding: 36px 70px 10px 70px;
+}
+
+#Servisces #for_tab{
+  max-width: 3000px;
+  max-height: 300px;
+  background-image: url(../resimler/zan2a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Servisces #for_tab{
+  padding-top: 40px;
+  padding-left: 140px;
+  padding-bottom: 70px;
+  border-bottom: var(--second-color) 100px solid;
+}
+
+#Servisces #for_tab h2{
+  color: var(--second-color);
+  align-items: center;
+  font-size: 15px;
+  word-spacing: 2px;
+  padding-left: 130px;
+}
+
+#Servisces #for_tab h2 span{
+  color: #fff;
+  font-size: 10px;
+  word-spacing: 2px;
+}
+
+#Servisces #tablet{
+  margin: -210px 0;
+}
+
+#Servisces #for_tab .get_start{
+  margin-left: 675px;
+  color: var(--main-color);
+  padding: 9px 25px;
+  background-color: var(--second-color);
+  border: solid 2px rgba(255, 0, 0, 0);
+  border-radius: 20px ;
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Servisces #for_tab .get_start:hover{
+  color: var(--second-color);
+  background-color: var(--main-color);
+  transform: scale(1.1);
+}
+
+/*onemli*/
+#Portfolio h2{
+  text-align: center;
+  margin: 50px;
+  font-size: 55px;
+  color: var(--main-color);
+}
+
+#Portfolio .Lorem2{
+  text-align: center;
+  color: var(--main-color);
+  word-spacing: 2px;
+  font-size: 10px;
+}
+
+#Portfolio #for_Portfolio{
+  margin-bottom: 60px;
+}
+
+#Portfolio #forjs{
+  width: 15%;
+  margin: auto;
+  padding-left: 29px;
+  margin-bottom: 100px;
+}
+
+#Portfolio #forjs button{
+  color: var(--second-color);
+  padding: 9px 25px;
+  background-color:var(--main-color);
+  border: solid 2px white;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  cursor: pointer
+}
+
+#Portfolio #forjs #all{
+  color: var(--main-color);
+  padding: 9px 25px;
+  background-color: var(--second-color);
+  border-radius: 20px;
+  margin-right: 5px;
+  transition: 0.4s ease;
+  cursor: pointer
+}
+
+#Portfolio #forjs button:hover{
+  color:var(--main-color);
+  background-color: var(--second-color);
+  transform: scale(1.1);
+}
+
+#Portfolio #forjs #all:hover{
+  color:var(--second-color);
+  background-color:var(--main-color);
+  transform: scale(1.1);
+}
+
+#Portfolio #resimler{
+  margin-left: 500px;
+  padding-bottom: 105px;
+}
+
+#Portfolio #resimler #bir,#iki,#dort,#bes{
+  padding-right: 35px;
+}
+
+#Portfolio #resimler #bir,#iki,#uc,#dort,#bes,#alti{
+  padding-bottom: 15px;
+  transition: 0.3s ease;
+  cursor: pointer
+}
+
+#Portfolio #resimler #bir:hover,#iki:hover,#uc:hover,#dort:hover,#bes:hover,#alti:hover{
+  transform: rotate(5deg) scale(1.1);
+  transform: scale(1.1);
+}
+
+#Portfolio #resimler #for_resimler{
+  margin-top: 40px;
+  margin-left: 210px;
+  padding: 9px 25px;
+  margin-bottom: 0px;
+  color:var(--main-color);
+  background-color: var(--second-color);
+  border: solid 2px white;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  cursor: pointer
+}
+
+#Portfolio #resimler #for_resimler:hover{
+  color:var(--second-color);
+  background-color:var(--main-color);
+  transform: scale(1.1);
+}
+
+#Portfolio #vdio{
+  
+  border-top: 50px solid var(--second-color);
+  background-color: var(--second-color);
+  padding-top: 50px;
+  /*border-bottom: var(--main-color) 400px solid;*/
+}
+
+
+#Portfolio #vdio h3,h4,p{
+  text-align: center;
+  margin-left: 270px;
+  color: var(--main-color);
+  font-size: 15px;
+}
+
+#Portfolio #vdio p{
+  color: #fff;
+  font-size: 10px;
+}
+
+#Portfolio #vdio #fo_vdio{
+  margin-top: -181px;
+  padding-left: 270px;
+  margin-bottom: 60px;
+}
+
+#Portfolio #vdio #reed_more{
+  margin-top: 0px;
+  margin-left: 830px;
+  padding: 9px 25px;
+  color:var(--second-color);
+  background-color: var(--main-color);
+  border: solid 2px black;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  transition: 0.4s ease;
+  cursor: pointer
+}
+
+#Portfolio #vdio #reed_more:hover{
+  color:var(--main-color);
+  background-color:var(--second-color);
+  transform: scale(1.1);
+}
+
+#new_S #is_graet{
+  background-color: var(--main-color);
+  text-align: center;
+  color: #fff;
+  max-height: 427.5px;
+}
+
+#new_S #is_graet h5{
+  padding-top: 60px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+}
+
+#new_S #is_graet h5 span{
+  font-size: 7px;
+  letter-spacing: 2px;
+}
+
+#new_S #is_graet button{
+  margin-top: 35px;
+  padding: 9px 25px;
+  color:var(--main-color);
+  background-color: var(--second-color);
+  border: solid 2px var(--second-color);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  transition: 0.4s ease;
+  cursor: pointer
+}
+
+#new_S #is_graet button:hover{
+  color:var(--second-color);
+  background-color:var(--main-color);
+  transform: scale(1.1);
+}
+
+#new_S #is_graet #new_img{
+  /*margin-top: -240.85px;*/
+  margin-top: 0px;
+}
+
+/*for about us*/
+#ABOUTUS h2{
+  text-align: center;
+  margin: 50px;
+  font-size: 55px;
+  color: var(--main-color);
+}
+
+#ABOUTUS .Lorem2{
+  text-align: center;
+  color: var(--main-color);
+  word-spacing: 2px;
+  font-size: 10px;
+}
+
+#ABOUTUS #for_us{
+  margin-bottom: 60px;
+}
+
+#ABOUTUS #new_resimler{
+  text-align: center;
+}
+
+#ABOUTUS #new_resimler h5{
+  color: var(--second-color);
+  margin-right: 260px;
+  font-size: 25px;
+  padding-bottom: 7px;
+}
+
+#ABOUTUS #new_resimler #ta5{
+  max-width: 500px;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin-left: 570px;
+  padding-bottom: 20px;
+}
+
+#ABOUTUS #new_resimler #h6{
+  margin-right: 297px;
+  padding-bottom: 30px;
+}
+
+#ABOUTUS #new_resimler #facebook1,#twiter1,#whatsapp1{
+  color: #a09797;
+  color: var(--main-color);
+  border-radius: 50%;
+  padding-left: 20px;
+}
+
+#ABOUTUS #icons1{
+  margin-right: 230px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+#ABOUTUS #icons1 #facebook1,#twiter1,#whatsapp1{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#ABOUTUS #icons1 #facebook1:hover,#twiter1:hover,#whatsapp1:hover{
+  transform: scale(1.5);
+}
+
+#ABOUTUS #icons1 #facebook1:hover{
+  color:#1877F2 ;
+}
+
+#ABOUTUS #icons1 #whatsapp1:hover{
+  color:#25D366 ;
+}
+
+#ABOUTUS #icons1 #twiter1:hover{
+  color: #1DA1F2;
+}
+#ABOUTUS #new_resimler #birg{
+  margin-right: 600px;
+  margin-top: -400px;
+  margin-bottom: -5px;
+  position: relative;
+  z-index: -1;
+}
+
+#ABOUTUS #for_skill{
+  background-color: var(--main-color);
+  border-bottom: var(--main-color) 50px solid;
+}
+
+#ABOUTUS #for_skill h5{
+  text-align: center;
+  color: var(--second-color);
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+#ABOUTUS #for_skill #HTML_CSS{
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-left: 600px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+#ABOUTUS #for_skill #HTML_CSS #img1{
+  margin-top: -10px;
+  margin-left: -15px;
+  
+}
+
+#ABOUTUS #for_skill #HTML_CSS #cpp{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#ABOUTUS #for_skill #HTML_CSS #img2{
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+#ABOUTUS #for_skill #HTML_CSS #c{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#ABOUTUS #for_skill #HTML_CSS #img3{
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+#ABOUTUS #for_skill #HTML_CSS #js{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#ABOUTUS #for_skill #HTML_CSS #img4{
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+#BLOG{
+  background-color: #fff;
+}
+
+#BLOG h2{
+  text-align: center;
+  margin: 50px;
+  font-size: 55px;
+  color: var(--main-color);
+}
+
+#BLOG .Lorem2{
+  text-align: center;
+  color: var(--main-color);
+  word-spacing: 2px;
+  font-size: 10px;
+}
+
+#BLOG #for_blog{
+  margin-bottom: 60px;
+}
+
+#Home #go-down{
+  position: absolute;
+  left: 50%;
+  padding-bottom: 30px;
+  transform: translateX(-50%);
+  padding-top: 220px;
+  font-size: 30px;
+}
+
+#Home #go-down:hover{
+  color: var(--main-color);
+}
+
+#Home #go-down i{
+  color: white;
+  transition: 0.3s ease;
+  animation: bouncing 1.5s infinite;
+}
+
+@keyframes bouncing{
+  0%, 10%, 20%, 50%, 80%, 100%{
+    transform: translateY(0);
+  }
+  40%, 60%{
+    transform: translateY(-15px);
+  }
+}
+
+#Home #go-down i:hover{
+  color:var(--second-color);
+  transform:scale(1.2);
+}
+
+/*son resimler*/
+
+/*Birinci*/
+
+#BLOG #son_resimler #one{
+  display:inline-block;
+  margin-top: 100px;
+  margin-left: 400px;
+  background-color: #fffcfc;
+  max-width: 270px;
+  max-height: 700px;
+  box-shadow:#2a3b45;
+  border-bottom: 5px solid #cdcccc;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#BLOG #son_resimler #one:hover{
+  transform:scale(1.1);
+}
+
+#BLOG #son_resimler #one h4{
+  color: var(--second-color);
+  text-align: left;
+  margin-left: -1px;
+  padding: 20px 5px 25px 25px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+#BLOG #son_resimler #one span{
+  color: var(--main-color);
+  text-align: left;
+  padding-top: 500px;
+  padding-right: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+/*ikiinci resim*/
+
+#BLOG #son_resimler #tow{
+  display:inline-block;
+  margin-top: 100px;
+  margin-left: 160px;
+  background-color: #fffcfc;
+  max-width: 270px;
+  max-height: 700px;
+  box-shadow:#2a3b45;
+  border-bottom: 5px solid #cdcccc;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#BLOG #son_resimler #tow:hover{
+  transform:scale(1.1);
+}
+
+#BLOG #son_resimler #tow h4{
+  color: var(--second-color);
+  text-align: left;
+  margin-left: -1px;
+  padding: 20px 5px 25px 25px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+#BLOG #son_resimler #tow span{
+  color: var(--main-color);
+  text-align: left;
+  padding-top: 500px;
+  padding-right: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+/* ucncu */
+
+#BLOG #son_resimler #three{
+  display:inline-block;
+  margin-top: 5px;
+  margin-left: 260px;
+  background-color: #fffcfc;
+  max-width: 250px;
+  max-height: 500px;
+  box-shadow:#2a3b45;
+  border-bottom: 5px solid #cdcccc;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#BLOG #son_resimler #three:hover{
+  transform:scale(1.1);
+}
+
+#BLOG #son_resimler #three h4{
+  color: var(--second-color);
+  text-align: left;
+  margin-left: -1px;
+  padding: 20px 5px 25px 25px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+#BLOG #son_resimler #three span{
+  color: var(--main-color);
+  text-align: left;
+  padding-top: 500px;
+  padding-right: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+/*dorduncu*/
+
+#BLOG #son_resimler #f4{
+  display:inline-block;
+  margin-top: 5px;
+  margin-left: 120px;
+  background-color: #fffcfc;
+  max-width: 250px;
+  max-height: 500px;
+  box-shadow:#2a3b45;
+  border-bottom: 5px solid #cdcccc;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#BLOG #son_resimler #f4:hover{
+  transform:scale(1.1);
+}
+
+#BLOG #son_resimler #f4 h4{
+  color: var(--second-color);
+  text-align: left;
+  margin-left: -1px;
+  padding: 20px 5px 25px 25px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+#BLOG #son_resimler #f4 span{
+  color: var(--main-color);
+  text-align: left;
+  padding-top: 500px;
+  padding-right: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+/*besinci*/
+
+#BLOG #son_resimler #f5{
+  display:inline-block;
+  margin-top: 5px;
+  margin-left: 120px;
+  background-color: #fffcfc;
+  max-width: 250px;
+  max-height: 500px;
+  box-shadow:#2a3b45;
+  border-bottom: 5px solid #cdcccc;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#BLOG #son_resimler #f5:hover{
+  transform:scale(1.1);
+}
+
+#BLOG #son_resimler #f5 h4{
+  color: var(--second-color);
+  text-align: left;
+  margin-left: -1px;
+  padding: 20px 5px 25px 25px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+#BLOG #son_resimler #f5 span{
+  color: var(--main-color);
+  text-align: left;
+  padding-top: 500px;
+  padding-right: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+#BLOG #for_blog #for_son_resimler{
+  margin-top: 100px;
+  margin-left: 690px;
+  padding: 9px 25px;
+  color:var(--main-color);
+  background-color: var(--second-color);
+  border: solid 2px white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  transition: 0.4s ease;
+  cursor: pointer
+}
+
+#BLOG #for_blog #for_son_resimler:hover{
+  color:var(--second-color);
+  background-color:var(--main-color);
+  transform: scale(1.1);
+}
+
+#abone_olun{
+  background-color: var(--second-color);
+  padding-bottom: 60px;
+}
+
+#abone_olun #abone_ol h4{
+  color: #fff;
+  padding:35px ;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-left: -5px;
+  font-size: 25px;
+}
+
+#abone_olun #abone_ol #sub_and_gonder{
+  display: flex;
+  justify-content: center;
+}
+
+#abone_olun #abone_ol #sub_and_gonder #Mail{
+  background-color: #fff;
+  padding: 5px 15px;
+  border: solid white 2px;
+  border-radius: 15px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+#abone_olun #abone_ol #sub_and_gonder #gonder{
+  background-color: #fff;
+  padding: 5px 15px;
+  border: solid white 2px;
+  border-radius: 15px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+#CONTACTUS{
+  background-color: var(--main-color);
+  padding-bottom: 50px;
+}
+
+#CONTACTUS h2{
+  text-align: center;
+  margin: 50px;
+  margin-top: 0px;
+  padding-top: 50px;
+  font-size: 55px;
+  color: #fff;
+}
+
+#CONTACTUS .Lorem2{
+  text-align: center;
+  color: #fff;
+  word-spacing: 2px;
+  font-size: 10px;
+}
+
+#CONTACTUS #for_CONTACTUS{
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+}
+
+#CONTACTUS #CONTACTUS_kismi{
+  display: flex;
+  justify-content: center;
+}
+
+#CONTACTUS #CONTACTUS_kismi #Your_Name{
+  background-color: #2a3b4535;
+  padding: 7px 15px;
+  border: 2px solid #ffffff8a;
+  border-radius: 15px;
+  margin-right: 4px;
+  cursor: pointer;
+  margin: 0;
+  margin-left: -115px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+#CONTACTUS #CONTACTUS_kismi #your_mail{
+  background-color: #2a3b4535;
+  padding: 7px 15px;
+  border: 2px solid #ffffff8a;
+  border-radius: 15px;
+  margin-right: 4px;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 50px;
+  color: #fff;
+}
+
+#CONTACTUS #CONTACTUS_kismi #Subject{
+  background-color: #2a3b4535;
+  padding: 7px 15px;
+  border: 2px solid #ffffff8a;
+  border-radius: 15px;
+  margin-right: 4px;
+  cursor: pointer;
+  margin: 0;
+  margin-right: -100px;
+  color: #fff;
+}
+
+#CONTACTUS #mesaj_at{
+  margin-top: 20px;
+  margin-left: 413px;
+  background-color: #2a3b4535;
+  display: flex;
+  justify-content: center;
+  width: 649px;
+  height: 150px;
+  border: 2px solid #ffffff8a;
+  border-radius: 15px;
+  padding: 20px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#CONTACTUS #son_gonder{
+  margin-top: 0px;
+  margin-left: 710px;
+  padding: 9px 25px;
+  color:var(--main-color);
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+#CONTACTUS #son_gonder:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+#Footer{
+  padding-top: 40px;
+  background-color: #000;
+  padding-bottom: 50px;
+}
+
+#Footer p{
+  display: block;
+  margin-left: -20px;
+  color: #fff;
+  font-style: initial;
+  padding: 20px 0;
+}
+
+#Footer span{
+  font-size: 12px;
+}
+
+#Footer i{
+  color: #fff;
+  width: 14%;
+  margin: auto;
+}
+
+#Footer #FaceBook2{
+  display: flex;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#Footer #FaceBook2:hover{
+  
+  color: #1877F2;
+}
+
+#Footer #instagram2{
+  display: flex;
+  margin-top: -16px;
+  padding-left: 65px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#Footer #instagram2:hover{
+  
+  color: #C13584;
+}
+
+#Footer #twiter2{
+  display: flex;
+  margin-top: -16px;
+  padding-left: 130px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#Footer #twiter2:hover{
+  
+}
+
+#Footer #google2{
+  display: flex;
+  margin-top: -16px;
+  padding-left: 195px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#Footer #google2:hover{
+  color: #000080;
+}
+
+#Footer #whatsapp2{
+  display: flex;
+  margin-top: -16px;
+  padding-left: 260px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#Footer #whatsapp2:hover{
+  color: #25D366;
+}
+
+#Footer #linkdin2{
+  display: flex;
+  margin-top: -16px;
+  padding-left: 325px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+#Footer #linkdin2:hover{
+  color: #0077B5;
+}
+
+#Footer #Copyright{
+  font-size: 8px;
+  margin-left: -26px;
+}
